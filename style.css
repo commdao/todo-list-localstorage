@@ -1,0 +1,40 @@
+.item-description{
+    padding: 5px;
+    width: 200px;
+    margin-bottom: 10px;
+  }
+  
+  .item-completed:checked + .item-description{
+    background: #ddd;
+    text-decoration: line-through;
+  }
+  
+  #add{
+    padding: 8px 14px;
+    font-weight: bold;
+    color: #fff;
+    background: #009578;
+    cursor: pointer;
+  }
+  
+  #header_share_wrapper .share-button-icon svg{
+    fill: @primary-color !important;
+  }
+  
+  #header_share_wrapper .share-button-icon svg{
+    background-color: transparent !important;
+  }
+  
+  #header-social .social svg{
+    fill: contrast(@header-bg-color, @primary-color, @light-text) !important;
+  }
+  
+  #header-social .social a svg{
+    background-color: transparent !important;
+    width: 23px !important;
+    height: unset;
+  }
+  
+  .social svg, .share_button svg{
+    width: 20px;
+  }
